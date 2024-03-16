@@ -1,0 +1,13 @@
+.vertical-text-container {
+    position: relative;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .vertical-text {
+    position: absolute;
+    left: 0;
+    transition: top 1s linear; /* Adjust animation duration */
+    white-space: nowrap;
+  }
+  
